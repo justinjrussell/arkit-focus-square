@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410AB9491F0032C300F62AA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AB9481F0032C300F62AA7 /* AppDelegate.swift */; };
+		410AB94B1F0032C300F62AA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AB94A1F0032C300F62AA7 /* ViewController.swift */; };
+		410AB94E1F0032C300F62AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410AB94C1F0032C300F62AA7 /* Main.storyboard */; };
+		410AB9501F0032C300F62AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410AB94F1F0032C300F62AA7 /* Assets.xcassets */; };
+		410AB9531F0032C300F62AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410AB9511F0032C300F62AA7 /* LaunchScreen.storyboard */; };
+		410AB95E1F0032C400F62AA7 /* AR_Focus_SquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AB95D1F0032C400F62AA7 /* AR_Focus_SquareTests.swift */; };
+		410AB9691F0032C400F62AA7 /* AR_Focus_SquareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AB9681F0032C400F62AA7 /* AR_Focus_SquareUITests.swift */; };
+		410AB9771F00361900F62AA7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AB9761F00361900F62AA7 /* Utilities.swift */; };
+		410AB9791F0038AF00F62AA7 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AB9781F0038AF00F62AA7 /* FocusSquare.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410AB95A1F0032C400F62AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410AB93D1F0032C300F62AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410AB9441F0032C300F62AA7;
+			remoteInfo = "AR Focus Square";
+		};
+		410AB9651F0032C400F62AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410AB93D1F0032C300F62AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410AB9441F0032C300F62AA7;
+			remoteInfo = "AR Focus Square";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410AB9451F0032C300F62AA7 /* AR Focus Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Focus Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410AB9481F0032C300F62AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410AB94A1F0032C300F62AA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		410AB94D1F0032C300F62AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410AB94F1F0032C300F62AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410AB9521F0032C300F62AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410AB9541F0032C300F62AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410AB9591F0032C400F62AA7 /* AR Focus SquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Focus SquareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410AB95D1F0032C400F62AA7 /* AR_Focus_SquareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Focus_SquareTests.swift; sourceTree = "<group>"; };
+		410AB95F1F0032C400F62AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410AB9641F0032C400F62AA7 /* AR Focus SquareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Focus SquareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410AB9681F0032C400F62AA7 /* AR_Focus_SquareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Focus_SquareUITests.swift; sourceTree = "<group>"; };
+		410AB96A1F0032C400F62AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410AB9761F00361900F62AA7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		410AB9781F0038AF00F62AA7 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410AB9421F0032C300F62AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410AB9561F0032C400F62AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410AB9611F0032C400F62AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410AB93C1F0032C300F62AA7 = {
+			isa = PBXGroup;
+			children = (
+				410AB9471F0032C300F62AA7 /* AR Focus Square */,
+				410AB95C1F0032C400F62AA7 /* AR Focus SquareTests */,
+				410AB9671F0032C400F62AA7 /* AR Focus SquareUITests */,
+				410AB9461F0032C300F62AA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410AB9461F0032C300F62AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410AB9451F0032C300F62AA7 /* AR Focus Square.app */,
+				410AB9591F0032C400F62AA7 /* AR Focus SquareTests.xctest */,
+				410AB9641F0032C400F62AA7 /* AR Focus SquareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410AB9471F0032C300F62AA7 /* AR Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				410AB9481F0032C300F62AA7 /* AppDelegate.swift */,
+				410AB94A1F0032C300F62AA7 /* ViewController.swift */,
+				410AB94C1F0032C300F62AA7 /* Main.storyboard */,
+				410AB94F1F0032C300F62AA7 /* Assets.xcassets */,
+				410AB9511F0032C300F62AA7 /* LaunchScreen.storyboard */,
+				410AB9541F0032C300F62AA7 /* Info.plist */,
+				410AB9761F00361900F62AA7 /* Utilities.swift */,
+				410AB9781F0038AF00F62AA7 /* FocusSquare.swift */,
+			);
+			path = "AR Focus Square";
+			sourceTree = "<group>";
+		};
+		410AB95C1F0032C400F62AA7 /* AR Focus SquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				410AB95D1F0032C400F62AA7 /* AR_Focus_SquareTests.swift */,
+				410AB95F1F0032C400F62AA7 /* Info.plist */,
+			);
+			path = "AR Focus SquareTests";
+			sourceTree = "<group>";
+		};
+		410AB9671F0032C400F62AA7 /* AR Focus SquareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410AB9681F0032C400F62AA7 /* AR_Focus_SquareUITests.swift */,
+				410AB96A1F0032C400F62AA7 /* Info.plist */,
+			);
+			path = "AR Focus SquareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410AB9441F0032C300F62AA7 /* AR Focus Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410AB96D1F0032C400F62AA7 /* Build configuration list for PBXNativeTarget "AR Focus Square" */;
+			buildPhases = (
+				410AB9411F0032C300F62AA7 /* Sources */,
+				410AB9421F0032C300F62AA7 /* Frameworks */,
+				410AB9431F0032C300F62AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Focus Square";
+			productName = "AR Focus Square";
+			productReference = 410AB9451F0032C300F62AA7 /* AR Focus Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410AB9581F0032C400F62AA7 /* AR Focus SquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410AB9701F0032C400F62AA7 /* Build configuration list for PBXNativeTarget "AR Focus SquareTests" */;
+			buildPhases = (
+				410AB9551F0032C400F62AA7 /* Sources */,
+				410AB9561F0032C400F62AA7 /* Frameworks */,
+				410AB9571F0032C400F62AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410AB95B1F0032C400F62AA7 /* PBXTargetDependency */,
+			);
+			name = "AR Focus SquareTests";
+			productName = "AR Focus SquareTests";
+			productReference = 410AB9591F0032C400F62AA7 /* AR Focus SquareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410AB9631F0032C400F62AA7 /* AR Focus SquareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410AB9731F0032C400F62AA7 /* Build configuration list for PBXNativeTarget "AR Focus SquareUITests" */;
+			buildPhases = (
+				410AB9601F0032C400F62AA7 /* Sources */,
+				410AB9611F0032C400F62AA7 /* Frameworks */,
+				410AB9621F0032C400F62AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410AB9661F0032C400F62AA7 /* PBXTargetDependency */,
+			);
+			name = "AR Focus SquareUITests";
+			productName = "AR Focus SquareUITests";
+			productReference = 410AB9641F0032C400F62AA7 /* AR Focus SquareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410AB93D1F0032C300F62AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Justin Russell";
+				TargetAttributes = {
+					410AB9441F0032C300F62AA7 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					410AB9581F0032C400F62AA7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 410AB9441F0032C300F62AA7;
+					};
+					410AB9631F0032C400F62AA7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 410AB9441F0032C300F62AA7;
+					};
+				};
+			};
+			buildConfigurationList = 410AB9401F0032C300F62AA7 /* Build configuration list for PBXProject "AR Focus Square" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410AB93C1F0032C300F62AA7;
+			productRefGroup = 410AB9461F0032C300F62AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410AB9441F0032C300F62AA7 /* AR Focus Square */,
+				410AB9581F0032C400F62AA7 /* AR Focus SquareTests */,
+				410AB9631F0032C400F62AA7 /* AR Focus SquareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410AB9431F0032C300F62AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410AB9531F0032C300F62AA7 /* LaunchScreen.storyboard in Resources */,
+				410AB9501F0032C300F62AA7 /* Assets.xcassets in Resources */,
+				410AB94E1F0032C300F62AA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410AB9571F0032C400F62AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410AB9621F0032C400F62AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410AB9411F0032C300F62AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410AB9771F00361900F62AA7 /* Utilities.swift in Sources */,
+				410AB9791F0038AF00F62AA7 /* FocusSquare.swift in Sources */,
+				410AB94B1F0032C300F62AA7 /* ViewController.swift in Sources */,
+				410AB9491F0032C300F62AA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410AB9551F0032C400F62AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410AB95E1F0032C400F62AA7 /* AR_Focus_SquareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410AB9601F0032C400F62AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410AB9691F0032C400F62AA7 /* AR_Focus_SquareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410AB95B1F0032C400F62AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410AB9441F0032C300F62AA7 /* AR Focus Square */;
+			targetProxy = 410AB95A1F0032C400F62AA7 /* PBXContainerItemProxy */;
+		};
+		410AB9661F0032C400F62AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410AB9441F0032C300F62AA7 /* AR Focus Square */;
+			targetProxy = 410AB9651F0032C400F62AA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		410AB94C1F0032C300F62AA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410AB94D1F0032C300F62AA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410AB9511F0032C300F62AA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410AB9521F0032C300F62AA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410AB96B1F0032C400F62AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410AB96C1F0032C400F62AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410AB96E1F0032C400F62AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92AZ2YGHS5;
+				INFOPLIST_FILE = "AR Focus Square/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinjrussell.AR-Focus-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410AB96F1F0032C400F62AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92AZ2YGHS5;
+				INFOPLIST_FILE = "AR Focus Square/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinjrussell.AR-Focus-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		410AB9711F0032C400F62AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92AZ2YGHS5;
+				INFOPLIST_FILE = "AR Focus SquareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinjrussell.AR-Focus-SquareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Focus Square.app/AR Focus Square";
+			};
+			name = Debug;
+		};
+		410AB9721F0032C400F62AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92AZ2YGHS5;
+				INFOPLIST_FILE = "AR Focus SquareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinjrussell.AR-Focus-SquareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Focus Square.app/AR Focus Square";
+			};
+			name = Release;
+		};
+		410AB9741F0032C400F62AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 92AZ2YGHS5;
+				INFOPLIST_FILE = "AR Focus SquareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinjrussell.AR-Focus-SquareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Focus Square";
+			};
+			name = Debug;
+		};
+		410AB9751F0032C400F62AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 92AZ2YGHS5;
+				INFOPLIST_FILE = "AR Focus SquareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinjrussell.AR-Focus-SquareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Focus Square";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410AB9401F0032C300F62AA7 /* Build configuration list for PBXProject "AR Focus Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410AB96B1F0032C400F62AA7 /* Debug */,
+				410AB96C1F0032C400F62AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410AB96D1F0032C400F62AA7 /* Build configuration list for PBXNativeTarget "AR Focus Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410AB96E1F0032C400F62AA7 /* Debug */,
+				410AB96F1F0032C400F62AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		410AB9701F0032C400F62AA7 /* Build configuration list for PBXNativeTarget "AR Focus SquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410AB9711F0032C400F62AA7 /* Debug */,
+				410AB9721F0032C400F62AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		410AB9731F0032C400F62AA7 /* Build configuration list for PBXNativeTarget "AR Focus SquareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410AB9741F0032C400F62AA7 /* Debug */,
+				410AB9751F0032C400F62AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410AB93D1F0032C300F62AA7 /* Project object */;
+}
